@@ -1,0 +1,122 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.card-container {
+  padding-top: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 8px;
+  text-align: center;
+  color: blueviolet;
+}
+
+.header {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+button{
+  position: fixed;
+  top: 25%;
+  left: 45%;
+  padding: 5px;
+  border-radius: 15px;
+  color: blueviolet;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image-container {
+  width: 100px; /* Set the width and height to create a circular container */
+  height: 100px;
+  border-radius: 50%; /* Use border-radius with 50% to create the circular shape */
+  overflow: hidden; /* Hide any part of the image outside the circular container */
+  margin-right: 15px; /* Add some space between the image and the h1 element */
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the circular container */
+}
+
+h1 {
+  margin: 0 auto; /* Remove default margin to align h1 with the circular image */
+  float:bcenter;
+  font-size: 300%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 20px;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  text-align: left;
+}
+
+th {
+  text-align: center;
+}
+
+footer{
+  background-color: blueviolet;
+  color: whitesmoke;
+  font-weight: bolder;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* responsive design */
+@media screen and (max-width:800px)
+{
+    main{
+        float:none;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Light mode */
+.app.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Dark mode */
+.app.dark {
+  background-color: #333;
+  color: #f0f0f0;
+}

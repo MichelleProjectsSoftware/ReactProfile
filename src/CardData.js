@@ -36,20 +36,32 @@ const CardData = () => {
       title: 'Work Experience',
       content:
       <table>
-      <tbody>
-      <tr><th>Company</th>
-      <th>Role</th><th>Year</th>
-      <th>Achievement</th></tr>
-      <tr><td>Calgary Mental Health Center</td>
-      <td>Business Analyst</td><td>2022</td>
-      <td>Created 50 dashboards for data insights with data of the whole calgary community</td></tr>
-      <tr><td>ATCO</td>
-      <td>Project Manager</td><td>2021</td>
-      <td>Managed over 20 gas facilities upgrade projects concurrently</td></tr>
-      <tr><td>Worley Parsons</td><td>Mechanical Engineer</td>
-      <td>2020</td>
-      <td>Developed pipeline stress and hydraulic simulation models for more than pipelines</td></tr>
-      </tbody>
+          <tbody>
+              <tr>
+                  <th>Company</th>
+                  <th>Role</th>
+                  <th>Year</th>
+                  <th>Achievement</th>
+              </tr>
+              <tr>
+                  <td>TealBook</td>
+                  <td>Data Engineer</td>
+                  <td>2022-2023</td>
+                  <td>Developed microservices and created data pipelines for data enhancement processes, resulting in a more than 90% increase in data processing speed.</td>
+              </tr>
+              <tr>
+                  <td>Black Square</td>
+                  <td>Data Engineer</td>
+                  <td>2020-2021</td>
+                  <td>Created innovative end-to-end machine learning models, including Product Recommendation Engines, Demand Forecasting, and Credit Card Fraud Detection.</td>
+              </tr>
+              <tr>
+                  <td>Integra Data and Analytic Solutions</td>
+                  <td>Data Scientist</td>
+                  <td>2019-2020</td>
+                  <td>Provided data-to-insights and technical expertise for Oil & Gas projects, enabling the creation of cost-effective solutions through advanced data analytics and process improvement recommendations.</td>
+              </tr>
+          </tbody>
       </table>,
     },
     {
@@ -57,13 +69,22 @@ const CardData = () => {
       content: 
       <table>
       <tbody>
-      <tr><th>Project</th><th>Details</th></tr>
-      <tr><td>Blogging Platform</td>
-      <td>Create a custom blogging platform with features like user authentication, content management, comments, and social sharing. This project would involve building both the front-end user interface and the back-end server infrastructure.</td></tr>
-      <tr><td>Fitness Tracking App</td>
-      <td>Develop a web or mobile application that allows users to track their fitness goals, log workouts, monitor progress, and provide personalized recommendations. This project could involve integrating APIs for data tracking and implementing data visualization features.</td></tr>
-      <tr><td>Online Marketplace</td>
-      <td> Build an online marketplace platform where users can buy and sell goods or services. This project would involve implementing features like user profiles, product listings, search functionality, secure transactions, and ratings/reviews.</td></tr>
+      <tr>
+      <th>Project</th>
+      <th>Details</th>
+      </tr>
+      <tr>
+          <td>Travel Booking Platform with .NET and C#</td>
+          <td>Created a custom platform with features like user authentication, role management, new trip booking, and admin search. This project involved building both the front-end user interface, the back-end server infrastructure, as well as database connection and management.</td>
+      </tr>
+      <tr>
+          <td>Database Management App with Windows Forms and C#</td>
+          <td>Developed a Windows Forms application that allows users to manage and interact with multiple tables in a database using SQL Server Management Studio (SSMS). Users can add, edit, and delete data entries with auto populated data through event handling.</td>
+      </tr>
+      <tr>
+          <td>Online Marketplace</td>
+          <td>Built an online marketplace platform where users can order groceries. Summaries of ordered items and calculated prices are displayed after order submissions.</td>
+      </tr>
       </tbody>
       </table>,
     },

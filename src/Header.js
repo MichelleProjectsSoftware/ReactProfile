@@ -8,8 +8,8 @@ const Header = () => {
           <img src={profileImage} alt="Profile" className="profile-image" />
         </div>
         <div>
-          <h1>Xiao Li - Profile</h1>
-          <h5>Downtown Calgary AB; coolxiao@gmail.com; 403-262-7283</h5>
+          <h1>Michelle Li - Profile</h1>
+          <h5>Calgary AB; michellelialberta@gmail.com</h5>
         </div>
     </header>
   );
